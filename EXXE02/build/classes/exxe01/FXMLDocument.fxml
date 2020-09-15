@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="882.0" prefWidth="533.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="exxe01.FXMLDocumentController">
+    <children>
+      <Button fx:id="uno" layoutX="28.0" layoutY="131.0" mnemonicParsing="false" onAction="#OPone" prefHeight="7.0" prefWidth="54.0" text="1" textAlignment="CENTER" textFill="#171717" textOverrun="CLIP">
+         <font>
+            <Font name="Comic Sans MS Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="dos" layoutX="111.0" layoutY="131.0" mnemonicParsing="false" onAction="#OPtwo" prefHeight="7.0" prefWidth="54.0" text="2" textAlignment="CENTER" textFill="#171717" textOverrun="CLIP">
+         <font>
+            <Font name="Comic Sans MS Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="tres" layoutX="195.0" layoutY="131.0" mnemonicParsing="false" onAction="#OPthree" prefHeight="7.0" prefWidth="54.0" text="3" textAlignment="CENTER" textFill="#171717" textOverrun="CLIP">
+         <font>
+            <Font name="Comic Sans MS Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="seis" layoutX="195.0" layoutY="212.0" mnemonicParsing="false" onAction="#OPsix" prefHeight="7.0" prefWidth="54.0" text="6" textAlignment="CENTER" textFill="#171717" textOverrun="CLIP">
+         <font>
+            <Font name="Comic Sans MS Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="cinco" layoutX="111.0" layoutY="212.0" mnemonicParsing="false" onAction="#OPfive" prefHeight="7.0" prefWidth="54.0" text="5" textAlignment="CENTER" textFill="#171717" textOverrun="CLIP">
+         <font>
+            <Font name="Comic Sans MS Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="cuatro" layoutX="28.0" layoutY="212.0" mnemonicParsing="false" onAction="#OPfour" prefHeight="7.0" prefWidth="54.0" text="4" textAlignment="CENTER" textFill="#171717" textOverrun="CLIP">
+         <font>
+            <Font name="Comic Sans MS Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="nueve" layoutX="195.0" layoutY="294.0" mnemonicParsing="false" onAction="#OPnine" prefHeight="7.0" prefWidth="54.0" text="9" textAlignment="CENTER" textFill="#171717" textOverrun="CLIP">
+         <font>
+            <Font name="Comic Sans MS Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="ocho" layoutX="111.0" layoutY="294.0" mnemonicParsing="false" onAction="#OPeight" prefHeight="7.0" prefWidth="54.0" text="8" textAlignment="CENTER" textFill="#171717" textOverrun="CLIP">
+         <font>
+            <Font name="Comic Sans MS Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="siete" layoutX="28.0" layoutY="294.0" mnemonicParsing="false" onAction="#OPseven" prefHeight="7.0" prefWidth="54.0" text="7" textAlignment="CENTER" textFill="#171717" textOverrun="CLIP">
+         <font>
+            <Font name="Comic Sans MS Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="punto" layoutX="28.0" layoutY="376.0" mnemonicParsing="false" onAction="#OPpunto" prefHeight="62.0" prefWidth="59.0" text="." textAlignment="CENTER" textFill="#171717" textOverrun="CLIP">
+         <font>
+            <Font name="Comic Sans MS Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="cero" layoutX="110.0" layoutY="376.0" mnemonicParsing="false" onAction="#OPzero" prefHeight="7.0" prefWidth="54.0" text="0" textAlignment="CENTER" textFill="#171717" textOverrun="CLIP">
+         <font>
+            <Font name="Comic Sans MS Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="igual" layoutX="195.0" layoutY="376.0" mnemonicParsing="false" onAction="#OP" prefHeight="7.0" prefWidth="54.0" text="=" textAlignment="CENTER" textFill="#171717" textOverrun="CLIP">
+         <font>
+            <Font name="Comic Sans MS Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_suma" layoutX="274.0" layoutY="131.0" mnemonicParsing="false" onAction="#SUMA" prefHeight="7.0" prefWidth="54.0" text="+" textAlignment="CENTER" textFill="#171717" textOverrun="CLIP">
+         <font>
+            <Font name="Comic Sans MS Bold" size="30.0" />
+         </font>
+      </Button>
+      <Label fx:id="resultado" ellipsisString="...v" layoutX="28.0" layoutY="55.0" prefHeight="62.0" prefWidth="328.0" style="-fx-border-color: black;">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn_resta" layoutX="274.0" layoutY="212.0" mnemonicParsing="false" onAction="#RESTA" prefHeight="7.0" prefWidth="54.0" text="-" textAlignment="CENTER" textFill="#171717" textOverrun="CLIP">
+         <font>
+            <Font name="Comic Sans MS Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_eliminar" layoutX="356.0" layoutY="212.0" mnemonicParsing="false" onAction="#OPdelete" prefHeight="7.0" prefWidth="54.0" text="&lt;" textAlignment="CENTER" textFill="#171717" textOverrun="CLIP">
+         <font>
+            <Font name="Comic Sans MS Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_enviar" layoutX="352.0" layoutY="368.0" mnemonicParsing="false" onAction="#Enviar" prefHeight="62.0" prefWidth="177.0" text="ENVIAR" textAlignment="CENTER" textFill="#171717" textOverrun="CLIP">
+         <font>
+            <Font name="Comic Sans MS Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnReset" layoutX="356.0" layoutY="131.0" mnemonicParsing="false" onAction="#OPreset" prefHeight="62.0" prefWidth="121.0" text="DEL" textAlignment="CENTER" textFill="#171717" textOverrun="CLIP">
+         <font>
+            <Font name="Comic Sans MS Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_stop" layoutX="352.0" layoutY="291.0" mnemonicParsing="false" onAction="#PARARCERRAR" prefHeight="62.0" prefWidth="177.0" text="MOSTRAR" textAlignment="CENTER" textFill="#171717" textOverrun="CLIP">
+         <font>
+            <Font name="Comic Sans MS Bold" size="25.0" />
+         </font>
+      </Button>
+      <Label fx:id="labelresultado" layoutX="29.0" layoutY="454.0" prefHeight="62.0" prefWidth="423.0">
+         <font>
+            <Font name="System Bold" size="41.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelCH" layoutX="23.0" layoutY="533.0" prefHeight="262.0" prefWidth="462.0" text="PRESIONE MOSTRAR, PARA VER LOS PUERTOS" textFill="#dd1313">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="18.0" />
+         </font></Label>
+      <Button fx:id="btn_multi" layoutX="274.0" layoutY="294.0" mnemonicParsing="false" onAction="#OPmulti" prefHeight="7.0" prefWidth="54.0" text="*" textAlignment="CENTER" textFill="#171717" textOverrun="CLIP">
+         <font>
+            <Font name="Comic Sans MS Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_divi" layoutX="274.0" layoutY="376.0" mnemonicParsing="false" onAction="#OPdivi" prefHeight="7.0" prefWidth="54.0" text="/" textAlignment="CENTER" textFill="#171717" textOverrun="CLIP">
+         <font>
+            <Font name="Comic Sans MS Bold" size="30.0" />
+         </font>
+      </Button>
+      <Label layoutX="16.0" layoutY="522.0" text="No." />
+      <Label layoutX="52.0" layoutY="504.0" prefHeight="56.0" prefWidth="66.0" text="CLIENTE ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="259.0" layoutY="515.0" prefHeight="56.0" prefWidth="66.0" text="SERVIDOR">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="118.0" layoutY="505.0" prefHeight="56.0" prefWidth="66.0" text="NODO " textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="192.0" layoutY="505.0" prefHeight="56.0" prefWidth="66.0" text="NODO" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="118.0" layoutY="522.0" prefHeight="56.0" prefWidth="66.0" text="SERVIDOR">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="195.0" layoutY="522.0" prefHeight="56.0" prefWidth="66.0" text="CLIENTE ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="339.0" layoutY="533.0" text="OP" />
+      <Label layoutX="386.0" layoutY="533.0" text="RESULTADO" />
+      <Button fx:id="tres1" layoutX="395.0" layoutY="14.0" mnemonicParsing="false" onAction="#OPthree" prefHeight="0.0" prefWidth="114.0" text="2" textAlignment="CENTER" textFill="#382ab0" textOverrun="CLIP">
+         <font>
+            <Font name="Comic Sans MS Bold" size="50.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
